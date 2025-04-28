@@ -1,4 +1,4 @@
-# ONLY FILE `Home.nix` for nix configuration 
+# ONLY FILE `home.nix` for nix configuration 
 
 1. Install **Home manager**
 ```bash
@@ -7,4 +7,6 @@ sudo nix-channel --add https://github.com/nix-community/home-manager/archive/rel
 sudo nix-channel --update
 sudo nixos-rebuild switch
 ```
-2. Replace file `Home.nix` 
+2. Replace file `home.nix` 
+
+> NOTE version of Nixpkgs and Home-manager is same
