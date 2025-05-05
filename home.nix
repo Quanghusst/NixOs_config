@@ -1024,6 +1024,7 @@ in
 	  GIT_EDITOR = "nvim";
 	  PAGER = "bat";
 	  BROWSER = "brave";
+      TERMINAL = "wezterm";
 	};
 	############################# 	CONFIG GIT   ################################################
 	programs.git = {
